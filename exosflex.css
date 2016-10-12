@@ -1,0 +1,131 @@
+header{
+  background: red;
+  height: 80px;
+}
+
+
+.flexcontainer{
+  justify-content: space-between;
+  display: flex;
+
+}
+
+.box1{
+  background: blue;
+  width: 400px;
+  height: 400px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.flaixcontainerb{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.flexc{
+  display: flex;
+  flex-flow: row;
+}
+
+.flex{
+  display: flex;
+  flex-flow: row;
+}
+
+.bloc1{
+  background: red;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+
+.bloc2{
+  background: pink;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+
+}
+
+.bloc3{
+  background: yellow;
+  width: 210px;
+  height: 150px;
+
+}
+
+.bloc4{
+  background: pink;
+  width: 210px;
+  height: 184px;
+
+}
+
+.bloc5{
+  background: yellow;
+  width: 500px;
+  height: 40px;
+  position: absolute;
+  left: 280px;
+  top:30px;
+}
+
+.bloc6{
+  background: yellow;
+  width: 250px;
+  height: 80px;
+  margin-left: 16px;
+}
+
+.bloc7{
+  background: blue;
+  width: 100px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.bloc8{
+  background: yellow;
+  width: 100px;
+  height: 80px;
+  margin-left: 10px;
+}
+
+.box3{
+  background: grey;
+  width: 400px;
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ici1{
+  background: blue;
+  width: 300px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.ici2{
+  background: yellow;
+  width: 300px;
+  height: 50px;
+}
+
+.ici3{
+  background: grey;
+  width: 300px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+
+.box4{
+  background: blue;
+  height: 80px;
+}

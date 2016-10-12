@@ -1,0 +1,61 @@
+*{
+  background: black;
+}
+
+button{
+  background: white;
+}
+
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+
+}
+
+h4{
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+nav{
+display: flex;
+
+
+}
+
+.bouton{
+  display: flex;
+  flex-direction: row;
+
+}
+
+li{
+  margin: 10px;
+}
+
+.rectangle{
+  background-color: red;
+  width: 100%;
+  height: 40%;
+  border-radius: 12px;
+}
+
+.milieu{
+  border: 1px solid white;
+  width: auto;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.containeur{
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
