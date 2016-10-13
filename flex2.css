@@ -1,11 +1,24 @@
-*{
+body{
   background: black;
 }
 
 button{
-  background: white;
+  color: white;
+  background: black;
+
 }
 
+.bouton{
+  position: absolute;
+  top: 5px;
+  left: 800px;
+}
+
+#robot{
+  height: 110%;
+  width: auto;
+  margin-left: 63%;
+}
 
 h1{
   color: white;
@@ -41,10 +54,19 @@ li{
 }
 
 .rectangle{
-  background-color: red;
+  background-color: #750104;
   width: 100%;
   height: 40%;
   border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+}
+
+.reflex{
+  position: absolute;
+  top: 170px;
+  left: 100px;
+
 }
 
 .milieu{
@@ -52,10 +74,56 @@ li{
   width: auto;
   height: 200px;
   border-radius: 10px;
+  margin-top: 30px;
 }
 
 .containeur{
   color: white;
   display: flex;
   flex-direction: row;
+  margin-left: 100px;
+
+}
+
+.flex{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+
+}
+
+.allo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+}
+
+footer{
+  padding: 10px;
+  padding-left: 40%;
+  background: #0D0D0D;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.ici{
+  position: absolute;
+  left: 800px;
+}
+
+.la{
+  margin-left: 100px;
+}
+
+ul{
+  margin-left: 15%;
+}
+
+.services{
+  margin-top: 60px;
+}
+
+.bas{
+
 }
